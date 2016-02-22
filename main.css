@@ -3,7 +3,11 @@ body {
     width: 100%;
     background-image: url("images/Skyscrapper+NYC.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    /*background-size: cover;*/
+    position:fixed ;
+    top:0;
+    z-index:0;
+    background-size: calc(100% + 50px);
 }
 
 #text {
@@ -42,6 +46,16 @@ a.hvr-bubble-float-top {
     margin: 20px;
     width: 275px;
 }
+
+/*#top-image {*/
+    /*background:url('https://d3ui957tjb5bqd.cloudfront.net/images/screenshots/products/0/8/8905/red-rocks-park-o.jpg') -25px -50px;*/
+    /*position:fixed ;*/
+    /*top:0;*/
+    /*width:100%;*/
+    /*z-index:0;*/
+    /*height:100%;*/
+    /*background-size: calc(100% + 50px);*/
+/*}*/
 
 .bubble::after {
     background-color: #F2F2F2;
